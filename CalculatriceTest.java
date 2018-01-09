@@ -5,6 +5,8 @@ public class CalculatriceTest {
 
 	@Test
 	public final void testMultiplication() {
-		fail("Not yet implemented"); // TODO
+		Calculatrice c = new Calculatrice();
+		//always return true
+		c.multiplication(21);
 	}
 }
