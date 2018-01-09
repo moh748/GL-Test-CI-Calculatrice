@@ -8,7 +8,3 @@ RUN apt-get update \
     && apt-get install openjdk-8-jdk -y
 
 EXPOSE 80
-
-# RUN javac Main.java
-
-# CMD ["java", "Main"]
