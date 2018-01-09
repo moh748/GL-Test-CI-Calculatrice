@@ -24,7 +24,8 @@ docker run --rm -it --name=gl-ci -v ${PWD}::/home/ci marienlbc/gl-tests-ci
 > * ```/home/ci# jar cvf calculatrice.jar Calculatrice.class```
 > * ```/home/ci# javac -cp /usr/share/java/junit4.jar:. /home/ci/gl-tests-ci/CalculatriceTest.java```
 > * ```/home/ci# java -cp /usr/share/java/junit4.jar:. org.junit.runner.JUnitCore CalculatriceTest```
-This should display : 
+
+## This should display : 
 JUnit version 4.12
 .le resultat est : 10
 
