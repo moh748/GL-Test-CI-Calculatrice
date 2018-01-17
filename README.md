@@ -21,11 +21,11 @@
 > * https://hub.docker.com/?next=https%3A%2F%2Fhub.docker.com%2F
 
 ## Pull & Run your Docker environment 
-> * docker login
+> * ```docker login```
 > * Put your credentials
-> * docker build -t gl-tests-ci .
-> * docker run -it --name=java-container gl-tests-ci
-:warning: On windows : winpty docker run -it --name=java-container gl-tests-ci
+> * ```docker build -t gl-tests-ci .```
+> * ```docker run -it --name=java-container gl-tests-ci```
+:warning: On windows : ```winpty docker run -it --name=java-container gl-tests-ci```
 
 
 #docker build -t testhop .
