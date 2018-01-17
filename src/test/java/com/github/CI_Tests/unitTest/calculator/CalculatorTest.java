@@ -16,4 +16,9 @@ public class CalculatorTest {
 			Assert.fail();
 		}
 	}
+
+	/**
+	*	A vous de développer la suite !
+	*/
+
 }
