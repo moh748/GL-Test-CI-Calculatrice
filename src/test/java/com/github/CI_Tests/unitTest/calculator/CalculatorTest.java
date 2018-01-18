@@ -20,5 +20,15 @@ public class CalculatorTest {
 	/**
 	*	A vous de développer la suite !
 	*/
-
+	@Test
+	public void testSub() {
+		// Given
+		Calculator calculator = new Calculator();
+		// When
+		int result = calculator.sub(2, 2);
+		// Then
+		if (result != 0) {   // if 2 + 2 != 4
+			Assert.fail();
+		}
+	}
 }
